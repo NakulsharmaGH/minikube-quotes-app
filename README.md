@@ -12,7 +12,7 @@ minikube-quotes-app/
 ```
 ```
 cd Downloads
-git clone https://github.com/atulkamble/minikube-quotes-app.git
+git clone https://github.com/NakulsharmaGH/minikube-quotes-app.git
 cd minikube-quotes-app
 ```
 ## 📸 Screenshots
@@ -73,14 +73,14 @@ Visit: `http://localhost:5000/`
 ### 📦 Build and Push Docker image
 
 ```bash
-docker build -t atuljkamble/minikube-quotes-app .
-docker push atuljkamble/minikube-quotes-app
+docker build -t NakulsharmaGH/minikube-quotes-app .
+docker push NakulsharmaGH/minikube-quotes-app
 ```
 
 ### ▶️ Run Docker container
 
 ```bash
-docker run -d -p 5000:5000 atuljkamble/minikube-quotes-app
+docker run -d -p 5000:5000 NakulsharmaGH/minikube-quotes-app
 ```
 
 Visit: `http://localhost:5000/`
@@ -143,7 +143,7 @@ minikube service minikube-quotes-service
 # Commands
 ```
 cd Downloads
-git clone https://github.com/atulkamble/minikube-quotes-app.git
+git clone https://github.com/NakulsharmaGH/minikube-quotes-app.git
 cd minikube-quotes-app
 cd app
 // manually run app
@@ -154,12 +154,12 @@ docker login
 
 // build image and push to dockerhub 
 
-docker build -t atuljkamble/minikube-quotes-app .
-docker push atuljkamble/minikube-quotes-app
+docker build -t NakulsharmaGH/minikube-quotes-app .
+docker push NakulsharmaGH/minikube-quotes-app
 
 // locally create container 
 
-docker run -d -p 5000:5000 atuljkamble/minikube-quotes-app
+docker run -d -p 5000:5000 NakulsharmaGH/minikube-quotes-app
 
 // access from browser 
 
@@ -201,17 +201,6 @@ http://127.0.0.1:50891
 minikube ip
 
 ```
----
-
-**Atul Kamble**
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
-- 🐙 [GitHub](https://github.com/atulkamble)
-- 🐦 [X](https://x.com/Atul_Kamble)
-- 📷 [Instagram](https://www.instagram.com/atuljkamble)
-- 🌐 [Website](https://www.atulkamble.in)
-
----
 
 ## 📜 License
 
